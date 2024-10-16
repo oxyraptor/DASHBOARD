@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    height: 100vh;
+    background: #343a40;
+    color: white;
+    position: fixed;
+}
+
+.sidebar a {
+    color: white;
+}
+
+.sidebar a:hover {
+    background: #495057;
+}
+
+.content {
+    padding: 20px;
+    margin-left: 250px; /* Adjust according to sidebar width */
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-title {
+    font-weight: bold;
+}
